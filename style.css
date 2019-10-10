@@ -47,6 +47,7 @@
 	background: #34a853;
 }
 
+
 @keyframes move1{
 	0%{
 		transform: translateY(0px);
@@ -55,3 +56,4 @@
 		transform: translateY(-25px);
 	}
 }
+
