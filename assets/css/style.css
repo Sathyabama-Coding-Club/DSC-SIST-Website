@@ -146,7 +146,7 @@ h4 {
 a {
   color: white;
   position: relative;
-  text-decoration: line-through;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
