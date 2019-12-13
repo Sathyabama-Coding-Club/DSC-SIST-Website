@@ -1013,7 +1013,7 @@ header nav.navbar #logo a.navbar-brand img {
 #wrap-social {
   position: fixed;
   top: 250px;
-  right: -150px;
+  right: -200px;
   z-index: 99;
 }
 
