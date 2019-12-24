@@ -195,7 +195,7 @@ p {
 }
 
 p.small-height {
-  line-height: 28px;
+  line-height: 38px;
 }
 
 /* core classes */
@@ -1012,7 +1012,7 @@ header nav.navbar #logo a.navbar-brand img {
 
 #wrap-social {
   position: fixed;
-  top: 250px;
+  top: 450px;
   right: -200px;
   z-index: 99;
 }
@@ -1042,171 +1042,12 @@ header nav.navbar #logo a.navbar-brand img {
 
 #wrap-social ul li a {
   color: white;
-  font-family: "Inconsolata", monospace;
+  font-family: Product Sans,sans-serif;
   text-transform: uppercase;
   font-size: 18px;
   line-height: 28px;
-  margin-right: 36px;
+  margin-right: 26px;
   text-decoration: none;
-}
-
-#share-this {
-  position: fixed;
-  left: -5px;
-  top: calc(100vh - 130px);
-  z-index: 99;
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1024px) {
-  #share-this {
-    left: -25px;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  #share-this {
-    left: inherit;
-    right: -75px;
-    top: calc(100vh - 110px);
-  }
-}
-
-@media screen and (max-width: 767px) {
-  #share-this {
-    -webkit-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-            transform: rotate(-90deg);
-    right: -60px;
-    top: 58px;
-  }
-}
-
-#share-this a {
-  -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-  color: white;
-  font-family: "Inconsolata", monospace;
-  font-size: 18px;
-  line-height: 28px;
-  margin-right: 36px;
-  background: #1F1F1F;
-  padding: 0 8px;
-}
-
-#share-this a i {
-  margin-left: 8px;
-}
-
-#banner-share {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #1A1A1A;
-  z-index: 999;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity .4s ease;
-}
-
-@media screen and (max-width: 767px) {
-  #banner-share {
-    padding: 80px 0;
-  }
-}
-
-#banner-share .wrap {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-  left: 0;
-  right: 0;
-}
-
-@media screen and (max-width: 767px) {
-  #banner-share .wrap {
-    position: relative;
-    top: inherit;
-    left: inherit;
-    -webkit-transform: none;
-        -ms-transform: none;
-            transform: none;
-  }
-}
-
-#banner-share ul {
-  text-align: center;
-}
-
-#banner-share ul li {
-  display: inline-block;
-}
-
-#banner-share ul li a {
-  width: 150px;
-  height: 150px;
-  background-color: #1F1F1F;
-  margin: 25px;
-  line-height: 150px;
-  font-size: 30px;
-  box-shadow: 0 0 38px rgba(0, 0, 0, 0.3), 0 0 12px rgba(0, 0, 0, 0.22);
-  display: inline-block;
-}
-
-#banner-share .close-button {
-  position: fixed;
-  left: 0px;
-  top: calc(100vh - 125px);
-  -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1024px) {
-  #banner-share .close-button {
-    left: -17px;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  #banner-share .close-button {
-    left: calc(100vw - 82px);
-    top: calc(100vh - 105px);
-  }
-}
-
-@media screen and (max-width: 600px) {
-  #banner-share .close-button {
-    left: calc(100vw - 112px);
-    top: 0;
-    width: 189px;
-  }
-}
-
-#banner-share .close-button a {
-  color: white;
-  font-family: "Inconsolata", monospace;
-  font-size: 18px;
-  line-height: 28px;
-  margin-right: 36px;
-  text-decoration: none;
-  background: #1F1F1F;
-  padding: 0 8px;
-}
-
-#banner-share .close-button a i {
-  margin-left: 8px;
-}
-
-#banner-share.is-open {
-  visibility: visible;
-  opacity: 1;
-  overflow: auto;
-  transition: opacity .4s ease;
 }
 
 section {
@@ -1455,7 +1296,7 @@ section#intro .wrap-description {
 section#intro .wrap-description p {
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+          transform: rotate(-360deg);
 }
 
 @media screen and (max-width: 991px) {
@@ -1799,6 +1640,7 @@ section#works img {
   max-width: 100%;
   height: auto;
   display: block;
+    border-radius: 50px;
   box-shadow: 0 0 38px rgba(0, 0, 0, 0.3), 0 0 12px rgba(0, 0, 0, 0.22);
   opacity: 0.5;
   position: relative;
