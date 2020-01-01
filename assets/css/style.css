@@ -2858,14 +2858,17 @@ button.mfp-close:hover {
     left: 25px;
     z-index: 22; }
 .single-team-area .team-info h5 {
-      font-size: 20px;
+    font: 100% "Product Sans", sans-serif;
+    font-size: 30px;
       font-weight: 900;
       color: white;
-      letter-spacing: 1px;
-      margin-bottom: 10px; }
+      letter-spacing: 2px;
+      margin-bottom: 0px; }
 .single-team-area .team-info p {
       color: white;
       margin-bottom: 0;
+      font: 100% "Product Sans", sans-serif;
+    font-weight: 100;
       letter-spacing: 1px;
       line-height: 1; }
 .single-team-area:hover .social-info, .single-team-area:focus .social-info {
