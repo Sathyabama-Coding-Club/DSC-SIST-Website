@@ -1860,7 +1860,7 @@ section#team .circle.circle1 {
 
 section#team .circle.circle2 {
   position: absolute;
-  top: 850px;
+  top: 680px;
   left: 450px;
 }
 
@@ -2211,7 +2211,7 @@ section#team .single-project:hover figure img {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	margin-top: ;
+	margin-bottom: -30%;
 	text-decoration: none;
 	cursor: pointer;
 	border: 3px solid #FF5252;
@@ -2859,7 +2859,7 @@ button.mfp-close:hover {
     z-index: 22; }
 .single-team-area .team-info h5 {
     font: 100% "Product Sans", sans-serif;
-    font-size: 30px;
+    font-size: 40px;
       font-weight: 900;
       color: white;
       letter-spacing: 2px;
