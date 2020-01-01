@@ -1832,6 +1832,403 @@ section#works .single-project:hover figure img {
   }
 }
 
+
+/* Team */
+
+@media screen and (max-width: 991px) {
+  section#team {
+    padding-top: 100px;
+  }
+}
+
+section#team .container {
+  position: relative;
+  height: 100%;
+}
+
+section#team .circle.circle1 {
+  position: absolute;
+  top: 250px;
+  right: -50px;
+}
+
+@media screen and (max-width: 1350px) {
+  section#team .circle.circle1 {
+    right: 50px;
+  }
+}
+
+section#team .circle.circle2 {
+  position: absolute;
+  top: 850px;
+  left: 450px;
+}
+
+@media screen and (max-width: 600px) {
+  section#team .circle.circle2 {
+    right: 25px;
+    left: inherit;
+  }
+}
+
+section#team .circle.circle3 {
+  position: absolute;
+  top: 50px;
+  left: -25px;
+}
+
+@media screen and (max-width: 1350px) {
+  section#team .circle.circle3 {
+    left: 50px;
+  }
+}
+
+section#team .row {
+  position: relative;
+}
+
+section#team .wrap-title {
+  margin-bottom: 0px;
+  position: relative;
+  z-index: 1;
+  width: 50%;
+}
+
+@media screen and (max-width: 991px) {
+  section#team .wrap-title {
+    margin-bottom: 75px;
+  }
+}
+
+section#team .wrap-title h3 {
+  margin-bottom: 30%;
+}
+
+section#team .see-projects {
+  position: absolute;
+  right: 150px;
+  bottom: 400px;
+  text-align: center;
+  color: #FF5252;
+  z-index: 3;
+}
+
+@media screen and (min-width: 1351px) and (max-width: 1450px) {
+  section#team .see-projects {
+    bottom: 500px;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1199px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 1199px), only screen and (min-device-pixel-ratio: 2) and (min-width: 1199px), only screen and (min-resolution: 192dpi) and (min-width: 1199px), only screen and (min-resolution: 2dppx) and (min-width: 1199px) {
+  section#team .see-projects {
+    bottom: 700px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  section#team .see-projects {
+    display: none;
+  }
+}
+
+section#team .see-projects i {
+  font-size: 80px;
+}
+
+section#team .see-projects h5 {
+  font-size: 18px;
+  font-family: "Inconsolata", monospace;
+  color: white;
+}
+
+section#team .see-projects a.link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+
+section#team img {
+  max-width: 100%;
+    margin-top: 30%;
+  height: auto;
+  display: block;
+    border-radius: 50px;
+  box-shadow: 0 0 38px rgba(0, 0, 0, 0.3), 0 0 12px rgba(0, 0, 0, 0.22);
+  opacity: 0.5;
+  position: relative;
+  z-index: 4;
+  transition: all .4s ease;
+}
+
+section#team img:hover {
+  box-shadow: 0 0 38px rgba(0, 0, 0, 0.8), 0 0 12px rgba(0, 0, 0, 0.8);
+  transition: all .4s ease;
+}
+
+@media screen and (max-width: 1199px) {
+  section#team .first-project {
+    margin-left: 66.66666667%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  section#team .first-project {
+    margin-left: 0;
+  }
+}
+
+section#team figure {
+  position: relative;
+  z-index: 10;
+}
+
+section#team figure:after {
+  content: '';
+  width: 80px;
+  height: 70%;
+  background-color: rgba(217, 217, 217, 0.4);
+  position: absolute;
+  top: -50px;
+  right: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  section#team figure:after {
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  section#team figure:after {
+    width: 50px;
+  }
+}
+
+section#team figure.line:after {
+  content: '';
+  width: 80%;
+  height: 80px;
+  background-color: rgba(217, 217, 217, 0.4);
+  position: absolute;
+  top: 50px;
+  left: -50px;
+}
+
+@media screen and (max-width: 480px) {
+  section#team figure.line:after {
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  section#team figure.line:after {
+    height: 50px;
+  }
+}
+
+section#team figure em {
+  position: absolute;
+  top: 77px;
+  left: 25px;
+  font-family: "Inconsolata", monospace;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+  z-index: 5;
+  display: inline-block;
+  opacity: 0;
+  -webkit-transform: translate(0px, 5px);
+      -ms-transform: translate(0px, 5px);
+          transform: translate(0px, 5px);
+  transition: all .4s ease;
+}
+
+@media screen and (max-width: 480px) {
+  section#team figure em {
+    top: 66px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  section#team figure em {
+    top: 61px;
+    left: 15px;
+  }
+}
+
+section#team figure em:after {
+  content: "\f3d6";
+  font-family: "Ionicons";
+  margin-left: 10px;
+  position: absolute;
+  top: 1px;
+}
+
+section#team figure em.line {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+  left: inherit;
+  right: 15px;
+}
+
+@media screen and (max-width: 480px) {
+  section#team figure em.line {
+    right: 5px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  section#team figure em.line {
+    right: 0px;
+  }
+}
+
+section#team figcaption {
+  font-size: 60px;
+  line-height: 80px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-top: -90px;
+  margin-left: 25px;
+  position: relative;
+  z-index: 4;
+  font-family: "Product Sans", sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+  section#team figcaption {
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: -49px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  section#team p {
+    padding-top: 50px;
+  }
+}
+
+section#team .single-project {
+  position: relative;
+}
+
+section#team .single-project a.link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+
+section#team .single-project:hover figure em {
+  opacity: 1;
+  transition: all .4s ease;
+}
+
+section#team .single-project:hover figure em:not(.line) {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+section#team .single-project:hover figure img {
+  opacity: .1;
+}
+
+@media screen and (max-width: 991px) {
+  section#team .col-md-offset-2 {
+    padding: 50px 0;
+  }
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+
+
+
+.team-btn a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	text-decoration: none;
+	cursor: pointer;
+	border: 3px solid #FF5252;
+	border-radius: 8px;
+	height: 2.8em;
+	width: 20em;
+	padding: 0;
+	outline: none;
+	overflow: hidden;
+	color: #fff;
+	transition: color 0.3s 0.1s ease-out;
+	text-align: center;
+	line-height: 250%;
+}
+
+.team-btn a::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	content: '';
+	border-radius: 50%;
+	display: block;
+	width: 30em;
+	height: 20em;
+	line-height: 20em;
+	left: -5em;
+	text-align: center;
+	transition: box-shadow 0.5s ease-out;
+	z-index: -1;
+}
+
+.team-btn a:hover {
+	color: #fff;
+}
+
+.team-btn a:hover::before {
+	box-shadow: inset 0 0 0 10em #171717;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .team-btn a {
+    position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-top: ;
+	text-decoration: none;
+	cursor: pointer;
+	border: 3px solid #FF5252;
+	border-radius: 8px;
+	height: 2.8em;
+	width: 20em;
+	padding: 0;
+	outline: none;
+	overflow: hidden;
+	color: #fff;
+	transition: color 0.3s 0.1s ease-out;
+	text-align: center;
+	line-height: 250%;
+  }
+}
+/* Team End */
+
 @media screen and (min-width: 1024px) {
   section#awards {
     padding-top: 150px;
@@ -2491,3 +2888,5 @@ button.mfp-close:hover {
     background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 100%);
     background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 100%);
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 100%); }
+
+
